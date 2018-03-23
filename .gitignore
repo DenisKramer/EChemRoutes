@@ -2,7 +2,8 @@
 *.lock
 
 ### Jekyll ###
-_site/
+html/
+cache/
 
 ### Sass ###
 .sass-cache
