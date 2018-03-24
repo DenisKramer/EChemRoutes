@@ -1,0 +1,16 @@
+-
+  id: 1
+  name: "Denis"
+  surname: "Kramer"
+  title: "Associate Professor for New Energy Technologies"
+  company: "University of Southampton"
+  link: "http://www.kramergroup.science"
+  thumbnailUrl: "DenisKramer.jpg"
+-
+  id: 2
+  name: "Sebastian"
+  surname: "Peter"
+  title: "Associate Professor"
+  company: "JNCASR"
+  link: "http://www.jncasr.ac.in/sebastiancp/"
+  thumbnailUrl: "SebastianPeter.png"

@@ -9,13 +9,21 @@
             height: 100%;
             outline: none;
             font-size: 16px;
+            font-weight: initial;
         }
     }
     .button {
         @extend .email;
         input {
             text-transform: uppercase;
+            font-weight: initial;
         }
+    }
+    .response {
+      font-size: 25px;
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
     }
 }
 .mc-field-group {

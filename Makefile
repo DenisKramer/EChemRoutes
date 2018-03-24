@@ -1,15 +1,18 @@
 JEKYLL_VERSION=3.5
+S3_BUCKET_NAME=www.elchemroutes2018.events
 
+.PHONY: build
 build: html cache
-	docker run --rm \
+	@docker run --rm \
   					  --volume="$(shell pwd)/content:/srv/jekyll" \
 							--volume="$(shell pwd)/cache:/usr/local/bundle" \
 							--volume="$(shell pwd)/html:/srv/output" \
   						-it jekyll/jekyll:${JEKYLL_VERSION} \
   					  jekyll build
 
+.PHONY: serve
 serve:
-	docker run --rm \
+	@	docker run --rm \
 							--volume="$(shell pwd)/content:/srv/jekyll" \
 							--volume="$(shell pwd)/cache:/usr/local/bundle" \
 							--volume="$(shell pwd)/html:/srv/output" \
@@ -17,10 +20,15 @@ serve:
 							-it jekyll/jekyll:${JEKYLL_VERSION} \
 							jekyll serve
 
+publish: build
+	aws s3 sync html s3://${S3_BUCKET_NAME}
+
 html:
 	mkdir html
 
 cache:
 	mkdir cache
 
-publish:
+clean:
+	rm -rf cache
+	rm -rf html

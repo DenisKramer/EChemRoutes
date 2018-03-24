@@ -16,7 +16,7 @@ layout: compress
         <div class="st-pusher">
             <div class="st-content">
 
-                {{ content }} 
+                {{ content }}
 
                 {% include footer.html %}
 
@@ -24,16 +24,16 @@ layout: compress
         </div>
     </div>
 
-    {% if page.modal != null %} 
-    	{% include speakers-modals.html %} 
-    {% endif %} 
+    {% if page.modal != null %}
+    	{% include speakers-modals.html %}
+    {% endif %}
 
     {% if page.permalink == '/schedule/' %}
-        {% include sessions-modals.html %} 
-    {% endif %} 
+        {% include sessions-modals.html %}
+    {% endif %}
 
     {% include analytics.html %}
-    
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
@@ -49,14 +49,14 @@ layout: compress
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
-        } 
+        }
     </script>
     {% elsif page.permalink == '/logistics/' %}
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
         </script>
-    {% endif %} 
+    {% endif %}
     <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
@@ -106,6 +106,25 @@ layout: compress
                         animationDelay -= 500;
                     }
                 }
+
+                var organiser = [
+                    {% for organiser in site.data.organisers %}
+                        {name: "{{ organiser.name }} {{ organiser.surname }}", company: "{{ organiser.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: organiser.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                    {% endfor %}
+                ];
+                if (organiser.length > 0) {
+                    var animationDelay = 1500,
+                        count = organiser.length,
+                        colWidth = 12/count;
+                    for(i=0; i<count; i++) {
+                        var clearfix = '<div class="clearfix visible-xs"></div>';
+                        if ((i)%2 != 0) {
+                            clearfix = ""
+                        }
+                        $('#organiser-title').after('<div class="col-md-'+ colWidth +' col-xs-6 organiser-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="organiser"><div class="flow-img img-circle organiser-img" style="background-image: url(' + organiser[i].image + ')"></div><div class="name">' + organiser[i].name + '</div><div class="sub">' + organiser[i].company + '</div></div></div>' + clearfix);
+                        animationDelay -= 500;
+                    }
+                }
             });
         {% elsif page.permalink == '/logistics/' %}
             var googleMaps = 'logistics',
@@ -113,22 +132,31 @@ layout: compress
                 centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
                 mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
                 icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-        {% elsif page.permalink == '/hackathon/' %}
-            if ($(window).width() > 767) {
-                var googleMaps = 'hackathon',
-                    eventPlace = new google.maps.LatLng({{ site.hackathonPlaceCoordinates }}),
-                    centerMap = new google.maps.LatLng({{ site.hackathonMapCenterCoordinates }}),
-                    mobileCenterMap = new google.maps.LatLng({{ site.hackathonMapMobileCenterCoordinates }}),
-                    icon = '{{ site.baseurl }}/img/other/map-marker.svg';
-            } else {
-               var staticGoogleMaps = true,
-                eventPlaceCoordinates = '{{ site.hackathonPlaceCoordinates | replace:' ','' }}',
-                centerMapCoordinates = '{{ site.hackathonMapCenterCoordinates | replace:' ','' }}',
-                mobileCenterMapCoordinates = '{{ site.hackathonMapMobileCenterCoordinates | replace:' ','' }}',
-                icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
-            }
-            
-        {% endif %} 
+        {% endif %}
+
+        {% if page.permalink == '/apply/' or  page.permalink == '/' %}
+          $(document).ready(function () {
+            $("#subscribe-submit").click(function(e) {
+               e.preventDefault();
+               var email = $("#subscribe-email").val();
+               $("#subscribe-submit").prop('disabled', true);
+               $.ajax({
+                   type: "POST",
+                   url: '{{ site.subscribeAction }}',
+                   contentType: 'application/json',
+                   data: JSON.stringify({'email': email}),
+                   success: function(res){
+                      $('#subscribe-form').hide();
+                      $('#subscribe-response-success').show();
+                   },
+                   error: function(){
+                      $('#subscribe-form').hide();
+                      $('#subscribe-response-error').show();
+                   }
+               });
+            });
+          });
+        {% endif %}
     </script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
