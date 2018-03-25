@@ -139,6 +139,7 @@ layout: compress
             $("#subscribe-submit").click(function(e) {
                e.preventDefault();
                var email = $("#subscribe-email").val();
+               $("#subscribe-submit").prop('value','Working ...');
                $("#subscribe-submit").prop('disabled', true);
                $.ajax({
                    type: "POST",
