@@ -51,7 +51,7 @@ heroButtons:
 # - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About ElChemRoutes2018"
+aboutTitle: "About"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "Participants share their research with each other in short sessions." }
  - {title: "Mentoring", image: "mentor.jpg", text: "Mentors will be around to coach you on everything from grant applications to career advice." }
@@ -110,7 +110,6 @@ twitterHashTag: "elchemroutes2018"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
 partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
 
@@ -123,6 +122,8 @@ subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "https://xabmfmm6of.execute-api.eu-west-1.amazonaws.com/prod/subscribe"
 subscribeInfo: "Registration will be open around end of April. Number of places are limited. Stay tuned!"
+subscribeSuccess: "Great. We will be in touch shortly"
+subscribeError: "Ups. Something went wrong. Shoot us an eMail."
 
 # Tickets Block
 ticketsTitle: "Pricetable"
