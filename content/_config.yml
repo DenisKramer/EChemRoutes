@@ -90,6 +90,7 @@ eventEndTime: "2018-12-15T20:00"
 eventPlaceCoordinates: "13.0685438, 77.61087499999996"
 mapCenterCoordinates: "13.0685438, 77.61087499999996"
 mapMobileCenterCoordinates: "13.0685438, 77.61087499999996"
+mapsAPIKey: AIzaSyAQjTCWu1N1uyeeFxJtD2yYx0ITTq78SR4
 
 # Venue Block
 venueBlockTitle: "Venue"
