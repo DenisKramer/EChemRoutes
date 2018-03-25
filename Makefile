@@ -21,7 +21,7 @@ serve:
 							jekyll serve
 
 publish: build
-	aws s3 sync html s3://${S3_BUCKET_NAME}
+	aws s3 sync --region eu-west-2 html s3://${S3_BUCKET_NAME}
 
 html:
 	mkdir html
