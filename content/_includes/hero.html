@@ -5,8 +5,13 @@
     <div class="jumbotron">
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
             {% assign heroText = site.heroTitle | split:"<typeout>" %}
-            <h1>{{ heroText[0] }}</h1>
-            <h1><span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span></h1>
+            <div class="hidden-xs">
+              <h1>{{ heroText[0] }}</h1>
+              <h1><span id="typeout-text"></span></h1>
+            </div>
+            <div class="typeout-fallback">
+              <h1><span>{{ heroText[0] }}</span><spam>{{ site.typeoutFallback }}</span></h1>
+            </div>
             {% for button in site.heroButtons %}
             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endfor %}
