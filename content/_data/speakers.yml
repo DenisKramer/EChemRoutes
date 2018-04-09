@@ -4,7 +4,7 @@
   surname: "Kucernak"
   company: "Imperial College London"
   title: "Professor of Physcial Chemistry"
-  bio: "Prof. Anthony Kucernak (ARK) B.Sc., Ph.D,. CChem. MRSC, is a professor of  Physical Chemistry in the Department of Chemistry, Imperial College London, and has extensive experience in the study of various aspects of solid polymer electrolyte fuel cells, supercapacitors, and the design of new electrochemical techniques. His group currently studies a large number of aspects of fuel cell systems ranging from the development of new electrocatalysts, the development of new techniques to characterise and study electrocatalysts, the development of fuel cell electrodes, and the development of new methods to characterise fuel cells.'
+  bio: "Prof. Anthony Kucernak (ARK) B.Sc., Ph.D,. CChem. MRSC, is a professor of  Physical Chemistry in the Department of Chemistry, Imperial College London, and has extensive experience in the study of various aspects of solid polymer electrolyte fuel cells, supercapacitors, and the design of new electrochemical techniques. His group currently studies a large number of aspects of fuel cell systems ranging from the development of new electrocatalysts, the development of new techniques to characterise and study electrocatalysts, the development of fuel cell electrodes, and the development of new methods to characterise fuel cells."
   thumbnailUrl: AnthonyKucernak.jpg
   rockstar: true
 -
@@ -13,7 +13,19 @@
   surname: "Shearing"
   company: "University College London"
   title: "Reader in Chemical Engineering & Materials"
-  bio: 'Prof Paul Shearing (PRS) UCL is Royal Academy of Engineering Chair in Emerging Technologies at University College London and from 2012-16 was a holder of a Royal Academy of Engineering Research Fellowship. His research interests cover a broad range of electrochemical engineering themes with a particular interest in the relationship between performance and microstructure for energy materials: an area in which he has published more than 130 papers in the past 5 years (>3000 citations, h=31). He is a pioneer of ‘4-D Tomography’ to study microstructure in electrochemical materials, and has used most of the world's major synchrotron light sources. He is a founding investigator of the newly formed Faraday Institution, and leads the STFC Global Challenge Network in Batteries and Electrochemical Energy Devices.  In 2014 he was named “Young Chemical Engineer of the Year in Academia” by the Institute of Chemical Engineers and in 2016 the RAEng Engineers Trust Young Engineer of the Year.'
+  bio: "Prof Paul Shearing (PRS) UCL is Royal Academy of Engineering Chair in
+  Emerging Technologies at University College London and from 2012-16 was a
+  holder of a Royal Academy of Engineering Research Fellowship. His research
+  interests cover a broad range of electrochemical engineering themes with a
+  particular interest in the relationship between performance and microstructure
+  for energy materials: an area in which he has published more than 130 papers
+  in the past 5 years (>3000 citations, h=31). He is a pioneer of '4-D Tomography'
+  to study microstructure in electrochemical materials, and has used most of
+  the world's major synchrotron light sources. He is a founding investigator of
+  the newly formed Faraday Institution, and leads the STFC Global Challenge
+  Network in Batteries and Electrochemical Energy Devices.  In 2014 he was
+  named 'Young Chemical Engineer of the Year in Academia' by the Institute of
+  Chemical Engineers and in 2016 the RAEng Engineers Trust Young Engineer of the Year."
   thumbnailUrl: PaulShearing.jpg
   rockstar: true
 -
