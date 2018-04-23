@@ -2,7 +2,7 @@ JEKYLL_VERSION=3.5
 S3_BUCKET_NAME=www.elchemroutes2018.events
 
 .PHONY: build
-build: html cache
+build: html cache $(find content)
 	@docker run --rm \
   					  --volume="$(shell pwd)/content:/srv/jekyll" \
 							--volume="$(shell pwd)/cache:/usr/local/bundle" \
