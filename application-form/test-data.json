@@ -1,0 +1,28 @@
+{
+  "eligibility": {
+    "isResident": true,
+    "hasPhD": true,
+    "hasRecentPhD": true
+  },
+  "person": {
+    "title": "Prof",
+    "givenName": "Denis",
+    "familyName": "Kramer",
+    "gender": "male",
+    "englishAbility": "excellent",
+    "position": "Associate Professor",
+    "institution": "University of Southampton",
+    "postalAddress": "University Road, Southampton SO17 1BJ",
+    "country": "uk",
+    "email": "d.kramer@soton.ac.uk",
+    "phoneNumber": "",
+    "bio": "Its me"
+  },
+  "application": {
+    "research": "cool stuff",
+    "motivation": "have to",
+    "development": "don't know",
+    "dissemination": "no idea",
+    "comment": "nothing"
+  }
+}

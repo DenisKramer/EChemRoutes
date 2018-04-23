@@ -1,0 +1,70 @@
+.form-container .button-row {
+  text-align: right;
+}
+
+.form-container {
+  text-align: left;
+  font-size: 18px;
+}
+
+.eligibility-container .introduction {
+  margin-bottom: 2em;
+}
+
+.person-container mat-form-field,
+.application-container mat-form-field {
+  width: 100%;
+}
+
+/* Large devices (PCs, 1200px and up) */
+@media (min-width: 1200px) {
+  .application-container .description {
+    text-align: right;
+    margin-top: 1em;
+  }
+}
+
+.eligibility-container {
+  margin-top: 1em;
+}
+
+.submit-container .summary {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.submit-container .submit-button-row {
+  margin-top: 3em;
+}
+/* Small devices (PCs, 768px and up) */
+@media (min-width: 768px) {
+  .submit-container .summary {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+.row.introduction {
+  text-align: center;
+}
+
+.summary.error {
+  color: red;
+}
+
+button.submit {
+  background: red;
+  color: white;
+  width: 100%;
+}
+
+.submission-pending {
+  text-align: center;
+  margin:3em;
+}
+
+.submission-response {
+  text-align: center;
+  margin:3em;
+}

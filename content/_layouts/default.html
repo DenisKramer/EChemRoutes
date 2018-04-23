@@ -45,6 +45,7 @@ layout: compress
     }
     </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
+
     {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
     <script>
         if ($(window).width() > 767) {
@@ -159,6 +160,12 @@ layout: compress
           });
         {% endif %}
     </script>
+
+    {% if page.permalink == '/apply/' %}
+    <!-- Load fonts for form elements -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    {% endif %}
+
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
         <script type="text/javascript">

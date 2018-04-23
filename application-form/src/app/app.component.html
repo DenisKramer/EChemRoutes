@@ -1,0 +1,300 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="form-container">
+  <div *ngIf="!isSubmitting && !isSubmissionComplete">
+    <form [formGroup]="applicationForm">
+    <mat-horizontal-stepper linear="false" #stepper="matHorizontalStepper">
+
+      <!--
+        Eligibility check
+      -->
+
+      <mat-step label="Eligibility" formGroupName="eligibility">
+        <div class="eligibility-container">
+          <div class="row introduction">
+            <div class="col-sm-10 col-sm-offset-1">
+              It will take you approximately one hour to fill in the application form. You can go forwards and
+              backwards at any point to make changes. However, your work is <b>not</b> saved while you edit the
+              form. If you close your browser window or navigate away, you'll loose your answers. Alternatively,
+              you can prepare your answers using your favorite text editor and then copy-paste into the form.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+              <mat-checkbox formControlName="isResident" name="isResident"
+                            matTooltip="Note: you can be resident without being an Indian or UK national">
+                I am resident in the UK or India
+              </mat-checkbox>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+              <mat-checkbox formControlName="hasPhD" name="hasPhD">
+                I have a PhD or equivalent qualification
+              </mat-checkbox>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+              <mat-checkbox formControlName="hasRecentPhD" name="hasRecentPhD">
+                I have obtained my PhD less than xx years ago
+              </mat-checkbox>
+            </div>
+          </div>
+        </div>
+        <div class="row button-row">
+          <div class="col-sm-12">
+            <button mat-button matStepperNext>Next</button>
+          </div>
+        </div>
+      </mat-step>
+
+      <!--
+        Person Detail
+      -->
+
+      <mat-step label="Person" formGroupName="person">
+        <div class="person-container">
+          <div class="row">
+            <div class="col-sm-2">
+              <mat-form-field><input formControlName="title" matInput placeholder="Title" name="title"></mat-form-field>
+            </div>
+            <div class="col-sm-5">
+              <mat-form-field><input formControlName="givenName" matInput placeholder="Given Name" name="givenName"></mat-form-field>
+            </div>
+            <div class="col-sm-5">
+              <mat-form-field><input matInput placeholder="Family Name" name="familyName" formControlName="familyName"></mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <mat-form-field>
+                <mat-select placeholder="Gender" formControlName="gender" name="gender"
+                            matTooltip="for statistical purposes. This will not affect choice of participants">
+                  <mat-option *ngFor="let gender of genders" [value]="gender.value">
+                    {{ gender.viewValue }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-sm-6">
+              <mat-form-field>
+                <mat-select placeholder="English" formControlName="englishAbility" name="englishAbility"
+                            matTooltip="The workshop will take place in English as standard. Please indicate your
+                            ability to work and communicate in English (Note, translators may be provided if necessary)">
+                  <mat-option *ngFor="let langCap of languageCapabilities" [value]="langCap.value">
+                    {{ langCap.viewValue }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <!--<mat-divider></mat-divider>-->
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-form-field><input formControlName="position" matInput placeholder="Position" name="position"></mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-form-field><input formControlName="institution" matInput placeholder="Institution" name="institution"></mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-9">
+              <mat-form-field><input formControlName="postalAddress" matInput placeholder="Postal Address" name="postalAddress"></mat-form-field>
+            </div>
+            <div class="col-sm-3">
+              <mat-form-field>
+                <mat-select placeholder="Country" formControlName="country" name="country">
+                  <mat-option *ngFor="let country of countries" [value]="country.value">
+                    {{ country.viewValue }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-form-field><input formControlName="email" matInput placeholder="eMail" name="email"></mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-form-field><input formControlName="phoneNumber" matInput placeholder="Phone number" name="phoneNumber"></mat-form-field>
+            </div>
+          </div>
+
+          <!--<mat-divider></mat-divider>-->
+          <div class="row">
+            <div class="col-sm-12">
+              <mat-form-field>
+                <textarea matInput placeholder="Short Bio (max. 300 words)"
+                          formControlName="bio" name="bio"
+                          matTextareaAutosize matAutosizeMinRows="5" matAutosizeMaxRows="20"
+                          matTooltip="academic career, publications, talks, markers of esteem,
+                          and any other relevant information"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row button-row">
+            <div class="col-sm-12">
+              <button mat-button matStepperPrevious>Back</button>
+              <button mat-button matStepperNext>Next</button>
+            </div>
+          </div>
+        </div>
+      </mat-step>
+
+      <!--
+        Application
+      -->
+
+      <mat-step label="Application" formGroupName="application">
+        <div class="application-container">
+          <div class="row">
+            <div class="col-lg-4 description">Please give a summary of your area of research</div>
+            <div class="col-lg-8">
+              <mat-form-field>
+                  <textarea matInput matTextareaAutosize name="research"
+                            formControlName="research"
+                            matAutosizeMinRows="5" matAutosizeMaxRows="20"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 description">
+              Please describe your motivation for attending the workshop and
+              how the workshop matches your professional development needs
+            </div>
+            <div class="col-lg-8">
+              <mat-form-field>
+                  <textarea matInput matTextareaAutosize name="motivation"
+                            formControlName="motivation"
+                            matAutosizeMinRows="5" matAutosizeMaxRows="20"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 description">
+              Please describe the expected impact of your participation on your personal and
+              professional development, including your ability to work internationally
+            </div>
+            <div class="col-lg-8">
+              <mat-form-field>
+                  <textarea matInput matTextareaAutosize name="development"
+                            formControlName="development"
+                            matAutosizeMinRows="5" matAutosizeMaxRows="20"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 description">
+              Please indicate how you will disseminate the outcomes of the workshops and
+              the new knowledge/skills you have acquired
+            </div>
+            <div class="col-lg-8">
+              <mat-form-field>
+                  <textarea matInput matTextareaAutosize name="dissemination"
+                            formControlName="dissemination"
+                            matAutosizeMinRows="5" matAutosizeMaxRows="20"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 description">
+              Please use this space to give any additional information that you feel
+              is relevant for the application
+            </div>
+            <div class="col-lg-8">
+              <mat-form-field>
+                  <textarea matInput matTextareaAutosize name="comment"
+                            formControlName="comment"
+                            matAutosizeMinRows="5" matAutosizeMaxRows="20"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row button-row">
+            <div class="col-sm-12">
+              <button mat-button matStepperPrevious>Back</button>
+              <button mat-button matStepperNext>Next</button>
+            </div>
+          </div>
+        </div>
+
+      </mat-step>
+      <mat-step label="Submit">
+        <div class="submit-container">
+          <div *ngIf="!isFormValid()">
+            <h2>Not quite ...</h2>
+            <div *ngIf="!isEligible()" class="summary error">
+              You don't seem to be eligible. Only applications from the UK or India with a recent PhD (or equivalent)
+              can apply for a fully funded place. If that is not true for you and you like to attend regardless, please
+              contact the organisers by email.
+            </div>
+
+            <div *ngIf="!isPersonDetailComplete()" class="summary error">
+              Your personal details are incomplete. Please fill in all required fields and check that you
+              have provided a valid and correct eMail address.
+            </div>
+
+            <div *ngIf="!isApplicationComplete()" class="summary error">
+              You have not provided required information in the application section. Please check that you have
+              completed all required fields.
+            </div>
+          </div>
+          <div *ngIf="isFormValid()">
+            <h2>Almost done ...</h2>
+            <div class="summary">
+              All looks good. Please press <b>submit</b> after you have reviewed your application one last time.
+              You will not be able to change your application after you have submitted.
+            </div>
+            <div class="summary">
+              You will receive an automated eMail confirming receipt of your application shortly after we
+              have received it. You might want to take a copy of your answers before pressing submit for your reference.
+            </div>
+
+            <div class="row justify-content-sm-center submit-button-row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <button mat-button class="submit" (click)="onSubmit()">Submit ...</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </mat-step>
+    </mat-horizontal-stepper>
+    </form>
+  </div>
+
+  <!-- Submission in progress -->
+
+  <div *ngIf="isSubmitting" class="submission-pending">
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <mat-spinner></mat-spinner>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-8 message">
+        Processing submission ...
+      </div>
+    </div>
+  </div>
+
+  <!-- Submission done -->
+  <div *ngIf="isSubmissionComplete" class="submission-response">
+    <div *ngIf="submissionResult === 'success'" class="success">
+      <h2>Submission received</h2>
+      <p>Thanks - We have received your application and will be in touch in due course.</p>
+    </div>
+    <div *ngIf="submissionResult === 'resubmission'" class="resubmission">
+      <h2>Resubmission</h2>
+      <p>You have submitted a previous application. Please contact the organisers to update or revoke your application.</p>
+    </div>
+    <div *ngIf="submissionResult === 'error'" class="error">
+      <h2>Ups ....</h2>
+      <p>Something went wrong! We are unlikely to have received your application. Please contact the organisers if the error persists.</p>
+    </div>
+  </div>
+</div>
