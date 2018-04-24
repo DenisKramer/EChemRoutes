@@ -21,7 +21,7 @@ and we've already secured leading academics from the UK and India to share their
 * **Anthony Kucernak** - Imperial College London<br>
 * **Paul Shearing** - University College London<br>
 * **Vijayamohanan Pillai** - CSIR-CECRI<br>
-* **Swapan Pati** - JNCASR<br>
+* **S. Sampath** - Indian Institute of Science<br>
 
 
 More details will appear in subsequent posts, in the meantime you can subscribe to our [email list](http://www.elchemroutes2018.events) to stay tuned.

@@ -38,9 +38,19 @@
   rockstar: true
 -
   id: 4
-  name: Swapan
-  surname: Pati
-  company: JNCASR
+  name: S.
+  surname: Sampath
+  company: Indian Institute of Science
   title: Professor
-  thumbnailUrl: SwapanPati.jpg
+  bio: "S. Sampath Completed his B. Sc. in Chemistry from Madurai Kamaraj University, in 1981.
+  He did his M. Sc. in Chemistry in the year 1983 from Madras University. He pursued his PhD
+  on Electrochemistry, 1991 from IIT Madras. Thereafter he worked as Postdoctoral Associate
+  in Osaka University, Japan (1992-1994) and Hebrew University, Israel (1994-1997). Now he
+  has been working as professor in the Department of Inorganic and Physical Chemistry,
+  Indian Institute of Science. The main focus of his research is to understand interfacial
+  properties involving novel materials and modified surfaces. They use a combination of spectroscopy,
+  electrochemistry and microscopy to understand the interfacial properties. Coupled in-situ
+  techniques based on electrochemical FTIR, Raman electrochemistry are routinely used to
+  understand various aspects."
+  thumbnailUrl: SSampath.jpg
   rockstar: true
