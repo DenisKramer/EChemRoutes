@@ -14,6 +14,8 @@ cache/
 Thumbs.db
 ehthumbs.db
 
+### Make ###
+.jekyllbuild
 
 ### Idea ###
 .idea
