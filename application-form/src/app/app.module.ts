@@ -4,7 +4,6 @@ import { MatButtonModule, MatCheckboxModule } from '@angular/material';
 import { FormBuilder, FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatStepperModule} from '@angular/material/stepper';
 import { MatCardModule} from '@angular/material/card';
@@ -49,5 +48,4 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class AppModule { }
 
-platformBrowserDynamic().bootstrapModule(AppModule);
 
