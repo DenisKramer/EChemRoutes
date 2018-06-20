@@ -14,7 +14,7 @@ So should you also be excited? Well yes... and here's why!
 * **Attendance**: we will bring together 30+ early-career academics from the UK and India
 * **Date**: 9-15 of December, expect lectures and plenty of time to mingle
 * **Venue**: Jawaharlal Nehru Centre for Advanced Scientific Research - this beautiful campus is located in the north of Bangalore
-* **Speakers**: we will cover **all** your costs - that's right, flights, accomodation, food: all free.
+* **Participants**: we will cover **all** your costs for successful applicants - that's right: flights, accommodation, food: all free.
 
 and we've already secured leading academics from the UK and India to share their expertise:
 
