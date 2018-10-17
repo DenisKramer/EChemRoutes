@@ -3,6 +3,8 @@ JEKYLL_VERSION=stable
 # Distribution target
 S3_BUCKET_NAME=www.elchemroutes2018.events
 
+CONTENT_FILES=$(shell find content)
+
 # Application form targets
 APPL_FORM_JS_FILES=main.bundle.js polyfills.bundle.js inline.bundle.js
 APPL_FORM_CSS_FILES=styles.bundle.css
@@ -15,7 +17,7 @@ APPL_FORM_SRC_DIR=application-form/src
 
 .PHONY: build
 build: .jekyllbuild ${APPL_FORM_FILES}
-.jekyllbuild: html cache $(find content)
+.jekyllbuild: html cache ${CONTENT_FILES}
 	@docker run --rm \
   					  --volume="$(shell pwd)/content:/srv/jekyll" \
 							--volume="$(shell pwd)/cache:/usr/local/bundle" \

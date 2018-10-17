@@ -189,7 +189,7 @@ footerBlocks:
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
+blogCommentsEnabled: false
 discusShortName: "elchemroutes2018ua"
 
 # Speakers List Block
