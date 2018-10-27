@@ -1,5 +1,5 @@
 version: 2
-jobs: 
+jobs:
   build-form:
     docker:
       image: circleci/node:6.10-browsers
@@ -128,15 +128,15 @@ jobs:
 
 workflows:
   version: 2
-    # The build and deploy workflow
-    build_and_deploy:
-        jobs:
-        - build-form
-        - build-page
-        - deploy
-            requires:
-            - build-form
-            - build-page
-            filters:
-              branches:
-                only: master
+  # The build and deploy workflow
+  build_and_deploy:
+      jobs:
+      - build-form
+      - build-page
+      - deploy
+          requires:
+          - build-form
+          - build-page
+          filters:
+            branches:
+              only: master
