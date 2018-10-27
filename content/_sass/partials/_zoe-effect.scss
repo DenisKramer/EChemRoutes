@@ -21,6 +21,7 @@ $figcaption-color: #3c4a50;
         h2, figcaption, figcaption > a {
             transform: translateY(0);
             color: #3c4a50;
+            text-shadow: 2px 2px #DDD;
         }
         figcaption > a {
             &:nth-child(5) {
@@ -34,7 +35,7 @@ $figcaption-color: #3c4a50;
             }
             &:nth-child(2) {
                 transition-delay: .25s;
-            }    
+            }
         }
         .bio {
             transform: translateY(-70%);
@@ -55,8 +56,8 @@ $figcaption-color: #3c4a50;
         background-size: 115%;
         @media (max-width: 767px) {
             background-position: center left;
-            -webkit-background-size: 105%;   
-            background-size: 105%;   
+            -webkit-background-size: 105%;
+            background-size: 105%;
         }
         .overlay {
             transition: $base-transition;
@@ -74,8 +75,9 @@ $figcaption-color: #3c4a50;
         transform: translateY(100%);
         color: $figcaption-color;
         background: #fff;
+        text-shadow: 2px 2px #333;
         @media (max-width: 767px) {
-            transform: translateY(0);         
+            transform: translateY(0);
         }
         h2 {
             font-size: 16px;
@@ -88,7 +90,7 @@ $figcaption-color: #3c4a50;
             transition-delay: .05s;
             color: #fff;
             @media (max-width: 767px) {
-                transform: translateY(0); 
+                transform: translateY(0);
                 color: #3c4a50;
             }
             span {
@@ -105,7 +107,7 @@ $figcaption-color: #3c4a50;
             transition: $base-transition;
             transform: translateY(200%);
             @media (max-width: 767px) {
-                transform: translateY(0);     
+                transform: translateY(0);
             }
         }
         .position {
