@@ -1,0 +1,141 @@
+version: 2
+jobs:
+  build-form:
+    docker:
+      image: circleci/node:6.10-browsers
+
+    working_directory: ~/repo/application-form
+
+    steps:
+       # Checkout the code from the branch into the working_directory
+            - checkout
+            # Log the current branch
+            - run:
+                name: Show current branch
+                command: echo ${CIRCLE_BRANCH}
+            # Restore local dependencies from cache
+            - restore_cache:
+                keys:
+                - v1-dependencies-{{ checksum "package.json" }}
+                - v1-dependencies-
+            # Install project dependencies
+            - run:
+                name: Install local dependencies
+                command: npm install
+            # Cache local dependencies if they don't exist
+            - save_cache:
+                key: v1-dependencies-{{ checksum "package.json" }}
+                paths:
+                    - node_modules
+            # Lint the source code
+            - run:
+                name: Linting
+                command: npm run lint
+            # Build project with different configuration based on
+            # the current branch
+            - run:
+                name: Building
+                command: |
+                  ng build --prod --aot --base-href=/apply/ --output-hashing none
+            # Cache the dist folder for the deploy job
+            - save_cache:
+                key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+                paths:
+                  - dist
+
+  build-page:
+    docker:
+      # specify the version you desire here
+       - image: circleci/ruby:2.4.1-node-browsers
+
+    working_directory: ~/repo/content
+
+    steps:
+      - checkout
+          path: ~/repo
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: run jekyll build
+          command: |
+            bundle exec jekyll build
+
+      # run tests!
+      - run:
+          name: run tests
+          command: |
+            bundle exec htmlproofer --disable_external ./_site
+
+      - save_cache:
+          paths:
+            - ./_site
+          key: v1-site-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+
+  deploy:
+    working_directory: ~/repo
+    docker:
+        - image: circleci/node:6.10-browsers
+    steps:
+        # Log the current branch
+        - run:
+            name: Show current branch
+            command: echo ${CIRCLE_BRANCH}
+        # Restore cache from the build job which contains the
+        # dist folder that needs to be deployed
+        - restore_cache:
+            key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+
+        - restore_cache:
+            key: v1-site-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+
+        # Install AWS cli
+        - run:
+            name: Install aws cli
+            command:
+              sudo apt-get -y -qq install awscli
+
+        # Set the signature version for the S3 auth
+        - run:
+            name: Setting Signature Version 4 for S3 Request Authentication
+            command: aws configure set default.s3.signature_version s3v4
+
+        # Deploy to the S3 bucket corresponding to the current branch
+        - run:
+            name: Deploy to S3
+            command: |
+              aws s3 sync --region eu-west-2 content/_site s3://www.elchemroutes2018.events/
+              aws s3 sync --region eu-west-2 application-form/dist/*.js s3://www.elchemroutes2018.events/js/apply/
+              aws s3 sync --region eu-west-2 application-form/dist/*.css s3://www.elchemroutes2018.events/css/apply/
+
+# ------------------------------------------------------------------------------------------------------
+
+workflows:
+  version: 2
+    # The build and deploy workflow
+    build_and_deploy:
+        jobs:
+        - build-form
+        - build-page
+        - deploy
+            requires:
+            - build-form
+            - build-page
+            filters:
+              branches:
+                only: master

@@ -77,6 +77,6 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
-import 'polyfills/typedarray.js'
-import 'polyfills/blob.js'
-import 'polyfills/formdata.js'
+import 'polyfills/typedarray.js';
+import 'polyfills/blob.js';
+import 'polyfills/formdata.js';
