@@ -251,3 +251,11 @@
   title: "Lecturer"
   bio: "I originally graduated from the department of mechanical engineering at Imperial College London, after which I transferred to the materials department to study for a PhD in battery modelling. I have just started my second year as a lecturer in the faculty of engineering at Imperial College London. My research is centred around the simulation of electrochemical energy storage devices, including batteries, fuel cells and super capacitors. My research group focus on three main areas: 1) Imaging and analysis of 3D microstructural data; 2) materials characterisation, including isotopic analysis of diffusion and surface exchange; and 3) machine learning approaches to model device level behaviours, especially for grid scale applications. I was a co-investigator for one of the major projects for the Faraday Challenge, which is the UK's flagship battery research programme, as well as winning three Innovate UK projects this year. I am the first-year maths lecturer in my department, but also launched an online course on mathematics for machine learning, which is currently one of the top five performing courses on Coursera."
   rockstar: false
+- id: 27
+  thumbnailUrl: ChaoPeng.png
+  name: Chao
+  surname: Peng
+  company: "University of Southampton"
+  title: "Postdoctoral Research Associate"
+  bio: "Dr Chao Peng, research fellow of engineering science, University of Southampton. His research currently focuses on the first-principles study of Li-ion battery, photovoltaic materials and heterogeneous catalysis based on density functional theory (DFT)."
+  rockstar: false
