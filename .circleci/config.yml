@@ -133,7 +133,7 @@ workflows:
       jobs:
       - build-form
       - build-page
-      - deploy
+      - deploy:
           requires:
           - build-form
           - build-page
