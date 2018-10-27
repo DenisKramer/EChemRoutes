@@ -14,7 +14,7 @@ title: "UK-India Workshop on Chemical Routes to Energy Storage, Energy Conversio
 email: "d.kramer@soton.ac.uk"
 description: "Workshop for early-career academics and researcher from the UK and India with interests in batteries, fuel cells, and renewable fuels"
 baseurl: ""
-url: "http://localhost:4000"
+url: "http://www.elchemroutes2018.events"
 permalink: "/blog/:title/"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
