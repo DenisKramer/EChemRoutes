@@ -54,3 +54,191 @@
   understand various aspects."
   thumbnailUrl: SSampath.jpg
   rockstar: true
+-
+  id: 5
+  name: Ghulam
+  surname: Hussain
+  company: "University of Aberdeen"
+  title: "Rutherford Research Fellow"
+  bio: "Ghulam Hussain Completed his MSc By Research in Chemistry from School of Chemistry, University of Bristol, UK in 2012. In Bristol, he introduced some fluorescent and non-fluorescent charged polymer nanoparticles for “Electophoretic Display Technology” and this work was funded by Punjab Education Endowment Fund (PEEF), government of Punjab, Pakistan. In 2013, he get a fully funded PhD scholarship, Curtin International Postgraduate Research Scholarship (CIPRS) to pursue his PhD in electrochemistry with focusing on nanochemistry, material Chemistry, and polymer chemistry from Curtin Institute for Functional Molecules and Interfaces, School of Molecular and Life Sciences, Curtin University, Western Australia (2013-2017). During his PhD, he developed chemical sensors for the sensing of highly flammable and toxic gases in room temperature ionic liquids (RTILs). His PhD work based on multidisciplinary research areas focusing on modification of electrode surfaces with 2D and 3D nanostructures, electrochemical deposition of nano-materials, nanoporous structures, Pb-doped 3D nanostructures, electrodeposited MOFs, polymerized ionic liquids, polymer/ionic liquid composites, and microcontact printing of highly hydrophobic organic molecules to print micropatterns and employed all these modified devices to develop RTIL-based gas sensors. He also develop some models for fast-reversible, quasi-reversible and irreversible redox process using Dig-Elch Simulator, to investigate which electrochemical techniques is more sensitive for a particular analyte in aqueous, organic and RTILs based media. He started his postdoc position in June 2018, as a Rutherford Research Fellow with Professor Angel Cuesta, which is strategic partnership between Curtin University of WA and University of Aberdeen UK. In Aberdeen, he is focussing on in-situ electrochemical and spectroscopic techniques based on surface enhanced infrared absorption spectroscopy couple with total reflectance mode (ATR-SEIRAS). He is investigating the interfacial properties of different adlayers in the presence of different cations to understand the electroadsorption/reduction of different gases such as CO2, CO on Pt-coated electrodes in aqueous media and the effect of different cations hydrophilicity and their size on the structure of electrical double layer."
+  thumbnailUrl: GhulamHussain.png
+  rockstar: false
+-
+  id: 6
+  name: Amlan
+  surname: Pal
+  company: "University of St. Andrews"
+  title: "Leverhulme Early Career Fellow"
+  bio: "Educational qualifications: 01/2009-10/2014: Ph.D (Inorganic Chemistry), University of Montreal. Research in Green Energy Group under supervision of Prof. Garry S. Hanan. 06/2006-07/2008: M.Sc, Indian Institute of Technology Madras, CGPA 8.18/10. Research under supervision of Prof. Dillip Kumar Chand (July 2007-April 2008). 07/2003-06/2006: B.Sc (Chemistry Honours), The University of Burdwan, 72.25%. Job Experience: (a) Leverhulme Early Career Fellow (independent academic position) at School of Chemistry, UStAn since September 2017. (b) EPSRC Research Fellow at School of Chemistry, UStAn with Dr. Eli Zysman-Colman since October 2015. Research Skills: Synthesis, Electrochemistry, Spectroscopy, Photophysics, Solar Energy Conversion, DFT calculations, Solving crystal structures."
+  thumbnailUrl: AmlanPal.jpg
+  rockstar: false
+-
+  id: 7
+  name: Pretam
+  surname: Singh
+  company: "IIT-BHU"
+  title: "Assistant Professor"
+  bio: "I, Dr. Preetam Singh completed my M.S. and PhD (Integrated PhD) from Indian Institute of Science in the area of exhaust catalysis and hydrogen production . After completion of doctoral research, I joined esteemed group of Professor John B. Goodenugh at University of Texas at Austin, USA to work in the area of Li-ion batteries and Solid Oxide fuel cells for my Post-Doctoral Study. Currently, I am working as an Assistant Professor in the Department of Ceramic Engineering, IIT (BHU) Varanasi, India. My research activity involve the development of Rechargeable Li/Na-ion batteries, Solid oxide-ion electrolytes and production of Hydrogen/Hythane from bio-mass."
+  thumbnailUrl: PreetamSingh.png
+  rockstar: false
+-
+  id: 8
+  name: Nagaphani
+  surname: Aetukuri
+  company: "Indian Institute of Science"
+  title: "Assistant Professor"
+  bio: "Naga Phani Aetukuri is an Assistant Professor in the Solid State and Structural Chemistry Unit at the Indian Institute of Science, Bengaluru. Prior to starting at IISc in 2016, he received his doctoral degree from Stanford University in 2013 and worked as a post-doctoral researcher in the Advanced Energy Storage group at IBM Almaden Research Center. His groupâ€™s research is in the areas of electric-field control of phase transitions in transition metal oxides, electro-catalysis and advanced electrochemical energy storage systems. He was a recipient of the IBM-Stanford SpinAps Graduate student fellowship and an IBM Research Division Award for Oxide Nano Devices."
+  thumbnailUrl: NagaphaniAetukuri.png
+  rockstar: false
+-
+  id: 9
+  name: Amartya
+  surname: Mukhopadhay
+  company: "Indian Institute of Technology (IIT) Bombay"
+  title: "Asssciate Professor"
+  bio: "Presently, Associate Professor at the Department of Metallurgical Engineering and Materials Science, IIT Bombay, Amartya Mukhopadhyay pursued his Doctoral in Materials research from the University of Oxford, UK, in December, 2009. He had obtained his Masters by research in Materials and Metallurgical Engineering from the Indian Institute of Technology (IIT), Kanpur, India in September, 2006. Prior to that he did his under-graduation in Metallurgical Engineering from Regional Engineering College (presently, National Institute of Technology; NIT), Durgapur, India (1999-2003) and had also subsequently worked for one year (2003 - 2004), as a graduate engineer trainee at ESSAR steel plant, Hazira, India, where he was selected via campus recruitment. Following his PhD he did his Post-doctoral Research at Brown University, USA for a couple of years. His major research interests include materials for electrodes and solid electrolytes for electrochemical energy storage (i.e., Li/Na-ion batteries) and also advanced structural ceramics/ceramic nanocomposites. To date, Amartya has authored/co-authored more than 50 research papers in peer-reviewed International Journals, contributed three chapters for books published by internationally recognized publishers and has 3 patents. H-index of his publications is 22 and total citations of >1300. Among his major accomplishments, he has been awarded with the 'INAE Young Engineer Award 2016', 'ASM-IIM North America Visiting Lectureship Award 2016', 'IIT Bombay Young Investigator Award' for the year 2014 and the prestigious 'Dr. R. L. Thakur Memorial Award' (a National Award as Young Scientist) by the 'Indian Ceramic Society' in 2013. Earlier, he was adjudged by St. Catherineâ€™s College (Oxford) as the best overseas student (2006-2007). He had also received the prestigious Clarendon Fund scholarship and Overseas Research student award for his D Phil studies at the University of Oxford."
+  thumbnailUrl: AmartyaMukhopadhay.png
+  rockstar: false
+- id: 10
+  name: Shyamal
+  surname: Das
+  company: "Tezpur University, Assam"
+  title: "Assistant Professor"
+  bio: "cademics: â€¢ PhD (Materials Science), Indian Institute of Science, Bangalore, India â€¢ MSc (Physics), Indian Institute of Technology, Guwahati, India â€¢ Post doctorate associate, Cornell University, USA â€¢ Visiting Scientist, Justus Liebig University Giessen, Germany (2015) â€¢ Visiting Scientist, Friedrich Schiller University Jena, Germany (2018) Publications (upto 10): 1. S. K. Das, Angewandte Chemie 2018, https://doi.org/10.1002/anie.201802595 2. S. K. Das, S. Mahapatra, H. Lahon, Journal of Materials Chemistry A 2017, 5, 6347 3. H. Lahan, R. Boruah, A. Hazarika, S. K. Das, J. Phys. Chem. C 2017, 121, 26241â€“26249 4. H. Lahan, S. K. Das, Ionics 2018, https://doi.org/10.1007/s11581-018-2589-0 5. H. Lahan, S. K. Das, Ionics 2018, 24, 1855-1860 6. S. K. Das, B. Jache, H. Lahon, J. Janek, P. Adelhelm, Chemical Communication, 2016, 52, 1428 7. S. K. Das, S. Lau, L. A. Archer, Journal of Materials Chemistry A 2014, 2, 12623 8. S. K. Das, S. Xu, A. â€“H. Emwas, Y. Y. Lu, S. Srivastava, L. A. Archer, Energy and Environmental Science 2012, 5, 8927 9. S. K. Das, R. Mallavajula, N. Jayaprakash, L. A. Archer, Journal of Materials Chemistry 2012, 22, 12988 10. Y. Y. Lu, S. K. Das, S. S. Moganty, L. A. Archer, Advanced Materials 2012, 24, 4430 Patents 1. L. A. Archer, Z. Yang, S. K. Das, Publication No. WO/2013/003836, International application no. PCT/US12/45188 (2012) 2. L. A. Archer, S. K. Das, N. Jayaprakash, Publication No. WO/2013/049097, International application no. PCT/US12/57181 (2012) Any other information: 1. INSA-bilateral exchange programme fellowship 2018 2. DAAD visiting scientist fellowship, 2018 3. Reviewer for Angew. Chem, JACS, Chem. Rev., Energy and Environmental Science, Science Advances etc."
+  thumbnailUrl: ShyamalDas.png
+  rockstar: false
+-
+  id: 11
+  name: Colleen
+  surname: Jackson
+  company: "Imperial College London"
+  title: "Postdoctoral Research Associate"
+  bio: "Colleen Jackson is currently a Research Associate at Imperial College London (UK) working on an EU framework 2020-funded project â€œMEMPHYS: (MEMbrane based Purification of HYdrogen System). This research involves investigating electrocatalysts for hydrogen electrochemical compression, namely for the hydrogen oxidation and hydrogen evolution reactions. Colleen obtained her PhD as part of a Newton Advanced Fellowship partnership between the University of Cape Town (RSA) and the University of Southampton (UK). She also holds a BSc and MSc in Chemical Engineering from the University of Cape Town. Her PhD thesis explored the use of silicon carbide and boron carbide as alternative electrocatalyst support materials for platinum nanoparticles, with the aim to develop more active and durable catalysts for PEM fuel cells through the oxygen reduction reaction. The use of advanced catalyst characterisation methods based on high energy X-rays (X-ray absorption spectroscopy and X-ray photoelectron spectroscopy) allowed for a better understanding of catalytic performance testing, theoretical modelling and fundamental kinetic studies."
+  thumbnailUrl: ColleenJackson.jpg
+  rockstar: false
+-
+  id: 12
+  name: Manaswita
+  surname: Kar
+  company: "University of Southampton"
+  title: "Postdoctoral Research Associate"
+  bio: " Researcher interested in hybrid perovskites and their applications in photovoltaics and batteries using Density Functional Theory calculations."
+  thumbnailUrl: ManaswitaKar.png
+  rockstar: false
+-
+  id: 13
+  name: Dayadeep
+  surname: Monder
+  company: "IIT Bombay"
+  title: "Associate Professor"
+  bio: "Dayadeep Monder is currently an Associate Professor in Energy Science and Engineering at IIT Bombay. He did his bachelor's degree at Panjab University in Chandigarh and then his master's, PhD and post-doctoral work in Canada. He taught at IIT Hyderabad for three years before moving to IIT Bombay in 2014. His research focusses on using mathematical modeling across multiple length and time scales to better understand the coupled chemical and physical processes in high temperature fuel cells and flow batteries."
+  thumbnailUrl:
+  rockstar: false
+-
+  id: 14
+  thumbnailUrl: PravinIngole.png
+  name: "Pravin P."
+  surname: Ingole
+  company: "Indian Institute of Technology Delhi"
+  title: "Assistant Professor"
+  bio: "Dr. Pravin Popinand Ingole is Assistant Professor of Chemistry at the Indian Institute of Technology Delhi (IIT Delhi). He obtained his M.Sc. (2004) and Ph.D. (2010) from University of Pune, India. From 2010-2012, he worked as postdoctoral researcher at the Technische UniversitÃ¤t Dresden, Germany. In 2012, he joined the Central University of Rajasthan, India as an Assistant Professor in School of Chemical Sciences and Pharmacy, where he worked for a short duration of one and half year and he then moved to IIT Delhi in December 2013. His research interest revolves around Electrochemistry and Nanomaterials for Energy and Environmental Applications."
+  rockstar: false
+-
+  id: 15
+  thumbnailUrl: ArindamSarkar.png
+  name: Arindam
+  surname: Sarkar
+  company: "Indian Institute of Technology Bombay"
+  title: "Assistant Professor"
+  bio: "Arindam Sarkar obtained his B.E. Degree in Mechanical Engineering (2001) from Pandit Ravishankar Shukla University Raipur, MTech. degree (2004) from Indian Institute of Technology Bombay, and his Ph.D. Degree (2009) from the University of Texas at Austin. He did his postdoctoral work at Lawrence Berkeley National laboratory, California from 2009 to 2011. Arindam returned to India in 2012 and joined the Department of Chemical engineering at Indian Institute of Technology Bombay as assistant professor. He is also a recipient of Ramanujan Fellowship from Government of India.
+  Arindam's research interests span the areas of chemical synthesis, characterizations (material and electrochemical) and evaluation of electrocatalysts for oxygen reduction reaction (ORR) in a fuel cell, development of electrocatalysts for oxidation of small organic molecules (formic acid, methanol, ethanol etc.), efficient reduction of atmospheric carbon dioxide to fuel, electrochemical energy storage technologies, and electroanalytical techniques. A common thread in his research and academic interests is the development of efficient and clean energy conversion and storage devices and mitigation of greenhouse gases through electrochemical means."
+  rockstar: false
+-
+  id: 16
+  thumbnailUrl: MuthukrishnanAzhagumuthu.png
+  name: Muthukrishnan
+  surname: Azhagumuthu
+  company: "Indian Institute of Science Education and Research Thiruvananthapuram"
+  title: "Assistant Professor"
+  bio: "Dr.A.Muthukrishnan joined as an assistant professor in the school of chemistry, Indian Institute of Science and Education research Thiruvananthapuram on June-2018. He received his M.Sc degree from Indian Institute of Technology Madras and later he joined in the same department and received his PhD in July-2010 and the Langmuir best thesis award in physical & theoretical chemistry by the institute. He accepted the offer given by Professor Lin-Chi Chen at National Taiwan University as post-doctoral researcher and worked in the area of electrochemical DNA aptasensors. Later, he moved to Department of electronic chemistry, Tokyo Institute of Technology and worked with Professor Takeo Ohsaka on developing active and durable carbon alloy catalysts for the fuel cell cathodes. The work includes the identification of active sites on non-platinum group metal nitrogen-doped carbon catalysts by exploring the mechanism of the oxygen reduction reaction. In Jan-2017, he moved to India and joined as an assistant professor at School of Chemistry, the University of Hyderabad before he becomes an assistant professor at IISER Thiruvananthapuram. Currently, he is working in the area of designing non-platinum group metal and metal-free fuel cell electrocatalysts to understand the active site information using fundamental concepts and developing the new materials using the kinetic and mechanistic insights."
+  rockstar: false
+-
+  id: 17
+  thumbnailUrl: ChinmoyRanjan.png
+  name: Chinmoy
+  surname: Ranjan
+  company: "Indian Institute of Science"
+  title: "Assistant Professor"
+  bio: "The author has been involved in the field of materials and electrocatalysis for last 15 years. He obtained a PhD in the field of electrocatalysis from Cornell University in 2007. After spending some years in the industry, he has been involved various efforts in applying in situ techniques to solve challenges in the field of electrochemical energy conversion. He is currently an Assistant Professor at the Department of Inorganic and Physical Chemistry at the Indian Institute of Science."
+  rockstar: false
+-
+  id: 18
+  thumbnailUrl: PrabeerBarpanda.png
+  name: Prabeer
+  surname: Barpanda
+  company: "Indian Institute of Science"
+  title: "Assistant Professor"
+  bio: "Prabeer Barpanda is currently serving as an Assistant Professor in the Materials Research Center, Indian Institute of Science (IISc), Bangalore. He completed his B. Engg. from National Institute of Technology Rourkela (India, 2002), M. Phil. from the University of Cambridge (UK, 2004) and Ph. D. from Rutgers University (USA, 2009). Following, he pursued postdoctoral work with Prof. J.M. Tarascon (Universite de Picardie Jules Verne, France, 2009-2010) and Prof. A. Yamada (The University of Tokyo, Japan, 2011-2013). Prabeerâ€™s research revolves around synthesis, structural and electrochemical study of novel materials for secondary Li-ion/ Na-ion batteries. He has published over 80 journal articles, 35 proceedings and 3 world patents. Till date, he has received several awards including Young Investigator Awards (2016) from Electrochemical Society of USA and Europe (ECS/ISE), Ross Coffin Purdy Award from American Ceramic Society (ACerS) and INSA Medal for Young Scientist (2016). (More details can be found at http://www.prabeer.in)"
+  rockstar: false
+-
+  id: 19
+  thumbnailUrl: PremkumarSenguttuvan.png
+  name: Premkumar
+  surname: Senguttuvan
+  company: "Jawaharlal Nehru Centre for Advanced Scientific Research"
+  title: "Assistant Professor"
+  bio: "Premkumar Senguttuvan completed his B.Tech from CECRI, India (2007) and M.S. from UPJV-France (2010). He pursued his PhD on the development of New Negative Electrode Materials for Sodium-ion Batteries under the guidance of Prof. J. â€“M. Tarascon and Dr. M. R. Palacin at UPJV-France and ICMAB-Spain (2010-2013). Thereafter, he worked as a Postdoctoral Associate in Dr. C. S. Johnsonâ€™s group at Argonne National Laboratory, USA (2014-2016). Recently, he has been appointed as a Faculty jointly at New Chemistry Unit and International Centre for Materials Science, JNCASR-India (2016). His research interests are synthesis, structural and electrochemical characterization of new electrode materials for Li-, Na- and multivalent-ion batteries."
+  rockstar: false
+-
+  id: 20
+  thumbnailUrl: SudhanshuSharma.png
+  name: Sudhanshu
+  surname: Sharma
+  company: "Indian Institute of Technology Gandhinagar"
+  title: "Assistant Professor"
+  bio: "M. Sc: Indian Institute of Technology, Roorkee 2001 2003 Chemistry Ph. D: Indian Institute of Science, Bangalore 2003 2009 Materials Chemistry Post-doc: University of California, Santa Barbara California (USA) (2009-2011) and Arizona State University Tempe, Arizona (USA) (2011-2012) Assistant Professor, chemistry since 2012 Ramanujan fellowship, Department of science and technology, India, August 2012 Research interest includes CO2 activation both by electrochemical and thermal catalytic route, Methane activation using doped metal oxides and uderstading the conducting metal oxides using electrochemistry."
+  rockstar: false
+-
+  id: 21
+  thumbnailUrl: AmitPaul.png
+  name: Amit
+  surname: Paul
+  company: "Indian Institute of Science Education and Research (IISER), Bhopal"
+  title: "Assistant Professor"
+  bio: "Amit Paul received his B.Sc. from the Jadavpur University, M.Sc. from the IIT Bombay, and PhD from the University of Pittsburgh with Prof. David H. Waldeck in 2008. He was then a postdoctoral research associate as a part of Energy Frontier Research Center (EFRC) at the University of North Carolina at Chapel Hill with Prof. Thomas. J. Meyer. In October, 2011, he joined the Indian Institute of Science Education and Research (IISER) Bhopal as a faculty member. He was awarded a DAE young scientist award in 2013. In 2018, he has been listed as an Emerging Investigator by Chemical Communications, RSC. His group is interested in the energy applications of nanomaterials such as electrochemical supercapacitor, heterogeneous water oxidation, sensor etc. He is particularly interested to understand structure-property relation in energy application."
+  rockstar: false
+-
+  id: 22
+  thumbnailUrl: MusthafaMuhammad.png
+  name: Musthafa
+  surname: Muhammad
+  company: "Indian Institute of Science Education and Research, Pune"
+  title: "Assistant Professor"
+  bio: "PhD: Indian Institute of Science, Bangalore 2011- Semiconductor Electrochemistry and Fuel Cells; Rhone-Alps Collaborative Researcher-University of Joseph Fourier-2009-2010-Electrochemical Sensors; Research Associate: St-Andrews University, Scotland, UK-2011 to 2014- Aprotic Li-air Battery; Research Associate: Indian Institute of Science, 2014 Jan- 2014 July- Aqueous Metal–air Battery; Assistant Professor- Indian Institute of Science Education and Research, Pune (IISER-Pune)-August 2014-till date- Electrochemistry, Energy Storage and Conversion, Electrochemical Sensors, Ion Conduction Mechanism, Electro-organic Synthesis"
+-
+  id: 23
+  thumbnailUrl: SasankaDeka.png
+  name: Sasanka
+  surname: Deka
+  company: "University of Delhi"
+  title: "Assistant Professor"
+  bio: "Dr. Sasanka Deka is an Assistant Professor and joined the Department in June, 2010. He received his M.Sc. in Chemistry from Gauhati University, Guwahati in 2001 and Ph.D. degree from National Chemical Laboratory (NCL-Pune) in 2007 under the supervision of Dr. P. A. Joy. He has been awarded the TMS Foundation 2008 SHRI RAM ARORA AWARD, by the Minerals, Metals & Materials Society (TMS), Warrendale, USA for his contribution and leadership in materials science. He then moved to National Nanotechnology Laboratory (NNL), CNR-INFM, Lecce, Italy and Italian Institute of Technology (IIT), Genova, Italy for postdoctoral research in the nanochemistry research group of Dr. Liberato Manna. Dr. Deka has published more than 50 research papers in different international peer-reviewed journals and meetings, 2 patents, and also wrote 2 books and 1 book chapter published by international publisher. He has been awarded with DAE-BRNS Young scientist research award. He is currently handling 3 externally funded research projects; from DBT, India; CSIR, India and SERB-DST. He has supervised 4 Ph.D. students and 15 M.Tech. NSNT/M.Sc. students for their project and internship and at present supervising 4 Ph.D. students. Dr. Deka is a life member of Materials Research Society of India (MRSI), Chemical Research Society of India (CRSI) and Electron Microscope Society of India (EMSI). He has delivered over 25 invited/plenary talks at National and International scientific events in USA, Europe, India. His current research interest deals with synthetic nanochemistry, multifunctional hybrid nanocrystals, novel nanomaterials for energy research."
+  rockstar: false
+-
+  id: 24
+  thumbnailUrl: SurendraMartha.png
+  name: Surendra
+  surname: Martha
+  company: "IIT Hyderabad"
+  title: "Associate Professor"
+  bio: "Dr. Surendra Kumar Martha is currently working as an Associate Professor at the Department of Chemistry, IIT Hyderabad. He graduated in the year 2006 from the Solid State and Structural Chemistry Unit, Indian Institute of Science, Bangalore, India, under the supervision of Professor Ashok K. Shukla. Previously, he worked as Postdoctoral Research Associate at the Oak Ridge National Laboratory, Tennessee, USA and Bar-Ilan University, Israel. His recent research interests are in materials electrochemistry with special emphasis on advanced lithium-ion, sodium-ion, lead-acid, Ni-Zn batteries, and supercapacitors. He has over 50 publications in peer-reviewed Material Science and Electrochemistry Journals and over 10 patents, contributed to over 45 academic conference."
+  rockstar: false
+-
+  id: 25
+  thumbnailUrl: TharamaniCN.png
+  name: Tharamani
+  surname: "C. Nagaiah"
+  company: "Indian Institute of Technology Ropar"
+  title: "Assistant Professor"
+  bio: "Dr. Tharamani is an Assistant Professor in the Department of Chemistry at Indian Institute of Technology (IIT) Ropar. She holds a PhD degree from Bangalore University. Prior joining IIT Ropar, she spent five years in Germany as senior scientist and postdoctoral fellow at Ruhr University Bochum and a year at University of Saskatchewan, Canada. She has also been a recipient of several fellowships like Alexander von Humboldt Postdoctoral Fellowship and Ramanujan Fellowship by Department of Science and Technology, Govt. of India. Her research interests includes design and development of various carbonaceous materials, nanomaterials, molecular catalyst towards energy conversion and storage. In-depth fundamental analysis of the newly designed electrocatalysts towards fuel cells and batteries by various electrochemical, spectroscopic, microscopic and scanning probe techniques (SECM)."
+  rockstar: false

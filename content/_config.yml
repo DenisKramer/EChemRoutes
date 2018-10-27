@@ -35,10 +35,10 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"}
 
 bottomNavigationLinks:
- - {link: "/apply", text: "Apply for a Place"}
+# - {link: "/apply", text: "Apply for a Place"}
 
 rightNavigationButtons:
- - {link: "/apply", text: "Apply for a Place"}
+# - {link: "/apply", text: "Apply for a Place"}
 
 # Hero Block
 heroImage: "hero3.jpg"
@@ -47,7 +47,7 @@ eventDate: "9-15 December 2018 - Bangalore (India)"
 typeoutTextValues: '"", "Energy Storage", "Energy Conversion", "Fuel Production"'
 typeoutFallback: "Energy and Fuel"
 heroButtons:
- - {permalink: "/apply", text: "Apply for a place"}
+# - {permalink: "/apply", text: "Apply for a place"}
 # - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -193,7 +193,7 @@ blogCommentsEnabled: false
 discusShortName: "elchemroutes2018ua"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "About us"

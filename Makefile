@@ -26,6 +26,16 @@ build: .jekyllbuild ${APPL_FORM_FILES}
   					  jekyll build
 	touch .jekyllbuild
 
+.PHONY: preview
+preview: html cache ${CONTENT_FILES} ${APPL_FORM_FILES}
+	@docker run --rm \
+  					  --volume="$(shell pwd)/content:/srv/jekyll" \
+							--volume="$(shell pwd)/cache:/usr/local/bundle" \
+							--volume="$(shell pwd)/html:/srv/output" \
+							-p 4000:4000 \
+  						-it jekyll/jekyll:${JEKYLL_VERSION} \
+  					  jekyll serve
+
 .PHONY: serve
 serve:
 	http-server ./html
