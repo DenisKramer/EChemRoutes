@@ -81,7 +81,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            bundle exec htmlproofer --disable_external --href-ignore '#' ./_site
+            bundle exec htmlproofer --disable_external --allow-hash-href ./_site
 
       - save_cache:
           paths:
