@@ -7,7 +7,7 @@ safe: false
 markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'vendor']
-destination: /srv/output
+#destination: /srv/output
 
 # Site Settings
 title: "UK-India Workshop on Chemical Routes to Energy Storage, Energy Conversion and Fuel Production"
