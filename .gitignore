@@ -1,5 +1,4 @@
 ### General ###
-*.lock
 .DS_Store
 
 ### Jekyll ###
