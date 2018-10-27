@@ -37,7 +37,7 @@ jobs:
             - run:
                 name: Building
                 command: |
-                  ng build --prod --aot --base-href=/apply/ --output-hashing none
+                  npm run build
             # Cache the dist folder for the deploy job
             - save_cache:
                 key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
