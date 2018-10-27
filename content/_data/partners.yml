@@ -1,6 +1,6 @@
 -
   group: "Sponsors"
   elements:
-    - {name: "British Council", description: "British Council", link: "https://www.britishcouncil.org/", imageUrl: "british-council-india.jpg", width: "35%"}
-    - {name: "Newton Fund", description: "Newton Fund", link: "http://www.newtonfund.ac.uk/", imageUrl: "newton-bhabha-fund.svg", width: "35%"}
-    - {name: "Royal Society of Chemistry", description: "Royal Society of Chemistry", link: "http://www.rsc.org/", imageUrl: "Royal_Society_of_Chemistry.svg", width: "15%"}
+    - {name: "British Council", description: "British Council", link: "https://www.britishcouncil.org", imageUrl: "british-council-india.jpg", width: "35%"}
+    - {name: "Newton Fund", description: "Newton Fund", link: "http://www.newtonfund.ac.uk", imageUrl: "newton-bhabha-fund.svg", width: "35%"}
+    - {name: "Royal Society of Chemistry", description: "Royal Society of Chemistry", link: "http://www.rsc.org", imageUrl: "Royal_Society_of_Chemistry.svg", width: "15%"}
