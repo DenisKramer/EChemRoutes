@@ -121,8 +121,8 @@ jobs:
             name: Deploy to S3
             command: |
               aws s3 sync --region eu-west-2 content/_site s3://www.elchemroutes2018.events/
-              aws s3 sync --region eu-west-2 application-form/dist/*.js s3://www.elchemroutes2018.events/js/apply/
-              aws s3 sync --region eu-west-2 application-form/dist/*.css s3://www.elchemroutes2018.events/css/apply/
+              aws s3 sync --region eu-west-2 --exclude "*" --include "*.js" application-form/dist/ s3://www.elchemroutes2018.events/js/apply/
+              aws s3 sync --region eu-west-2 --exclude "*" --include "*.css" application-form/dist/ s3://www.elchemroutes2018.events/css/apply/
 
 # ------------------------------------------------------------------------------------------------------
 
