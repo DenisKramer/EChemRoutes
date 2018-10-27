@@ -1,5 +1,5 @@
 version: 2
-jobs:
+jobs: 
   build-form:
     docker:
       image: circleci/node:6.10-browsers
