@@ -81,7 +81,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            bundle exec htmlproofer --disable_external --allow-hash-href --url-ignore "/js/apply/.*" --url-ignore "/css/apply/.*" ./_site
+            bundle exec htmlproofer --disable_external --allow-hash-href --url-ignore "/js/apply/.*/" --url-ignore "/css/apply/.*/" ./_site
 
       - save_cache:
           paths:
