@@ -23,7 +23,7 @@ build: .jekyllbuild ${APPL_FORM_FILES}
 							--volume="$(shell pwd)/cache:/usr/local/bundle" \
 							--volume="$(shell pwd)/html:/srv/output" \
   						-it jekyll/jekyll:${JEKYLL_VERSION} \
-  					  jekyll build
+  					  jekyll build --destination /srv/output
 	touch .jekyllbuild
 
 .PHONY: preview
@@ -34,7 +34,7 @@ preview: html cache ${CONTENT_FILES} ${APPL_FORM_FILES}
 							--volume="$(shell pwd)/html:/srv/output" \
 							-p 4000:4000 \
   						-it jekyll/jekyll:${JEKYLL_VERSION} \
-  					  jekyll serve
+  					  jekyll serve --destination /srv/output
 
 .PHONY: serve
 serve:
