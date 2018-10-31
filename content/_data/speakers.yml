@@ -278,3 +278,13 @@
   title: "Lecturer"
   bio: "Dr. Salvador Eslava is a Lecturer in Chemical Engineering at the University of Bath (UK). Before this, he was a postdoctoral research associate in the Materials Department at Imperial College London (2011-2014) and in the Chemistry Department at The University of Cambridge (2009-2011). He conducted his PhD work at the Centre for Surface Chemistry and Catalysis (COK) in Katholieke Universiteit Leuven and IMEC, Belgium. Dr Eslava currently leads a group on novel synthetic approaches for photoelectrochemical materials, including transition metal oxides, halide perovskites, oxide perovskites, and their application on energy generation and storage. He has published approx. 40 research articles in leading journals such as J. Mater. Chem. A or Nature Commun. His current h-index is 16. He has been awarded funding from The Royal Society, the Royal Society of Chemistry, EPSRC and Innovate UK."
   rockstar: false
+- 
+  id: 30
+  thumbnailUrl: MiTian.jpg
+  name: Mi
+  surname: Tian
+  company: "University of Bath"
+  title: "Research Associate"
+  bio: "I am currently working as a postdoctoral research associate in the fields of advanced materials for energy storage and environmental protection at the University of Bath. My recent work has focused on energy gas adsorption and CO2 capture of polymers of intrinsic microporosity (PIMs) and their composites. My long-term goal is to facilitate cutting-edge technologies to tackle the challenges for low carbon society and sustainable energy systems. I received my PhD degree from the University of East Anglia, UK. My PhD project focused on energy storage of the novel synthesis of carbon materials with the controlled structures using a self-designed plasma reactor through natural gas splitting. I successfully applied Design of Experiment (DoE) for methane decomposition procedure to improve the reactor design and control the quantity of the productions. The obtained series of porous carbon with novel structures have been used for the enhanced hydrogen storage, CO2 capture, air protection and wastewater treatment. I have developed excellent analytical skills and abilities to solve problems and deliver high-quality scientific presentations, as well as experience in a range of characterisation techniques. The significant achievements include successful technology transfer to industry that led to a patent, a new catalyst for enhancing hydrogen storage property of Mg-based materials and development of in-situ gas separation breakthrough apparatus."
+  rockstar: false
+  
