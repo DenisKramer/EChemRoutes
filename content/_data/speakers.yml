@@ -132,7 +132,7 @@
   company: "IIT Bombay"
   title: "Associate Professor"
   bio: "Dayadeep Monder is currently an Associate Professor in Energy Science and Engineering at IIT Bombay. He did his bachelor's degree at Panjab University in Chandigarh and then his master's, PhD and post-doctoral work in Canada. He taught at IIT Hyderabad for three years before moving to IIT Bombay in 2014. His research focusses on using mathematical modeling across multiple length and time scales to better understand the coupled chemical and physical processes in high temperature fuel cells and flow batteries."
-  thumbnailUrl: unknown_male.jpg
+  thumbnailUrl: DayadeepMonder.jpg
   rockstar: false
 -
   id: 14
@@ -332,3 +332,19 @@
   title: "Senior Lecturer"
   bio: "Ifan joined Imperial College in July 2017. Prior to Imperial, he was at the Department of Physics at the Technical University of Denmark; he was first employed as a postdoctoral researcher, then as assistant professor and finally as associate professor and leader of the Electrocatalysis Group there. In 2015, Massachusetts Institute of Technology (MIT) appointed Ifan as the Peabody Visiting Associate Professor. He taught and conducted research there for a whole semester. Ifan's research aims to enable the large-scale electrochemical conversion of renewable energy to fuels and valuable chemicals and vice versa. Such processes will be critical in order to allow the increased uptake of renewable energy. His focus is on the catalyst at the electrode, i.e. the electrocatalyst. It turns out that the electrocatalyst material defines the efficiency of several important electrochemical processes, including electrolysers, fuel cells and electrochemical synthesis. Ifan has discovered or co-discovered several new catalysts for the oxygen reduction reaction, which exhibited significant improvements in performance over the prior state-of-the-art. In particular, his research on hydrogen peroxide production led to the establishment of the spinout company, HP Now. Publications: 1. Jensen, K. D., et al (2018) Angewandte Chemie International Edition 57, 2800-2805 2. Escudero-Escribano, M., et al (2016) Science 352, 73-76. 3. Siahrostami, S., et al (2013) Nature Materials 12, 1137â€“1143. 4. Stephens, I. E. L., et al (2012) Energy & Environmental Scence. 5, 6744-6762. 5. Stephens, I. E. L., et al (2011) Journal of American Chemical Society. 133, 5485-5491. 24 invited lectures at internationally established conferences and summer schools. These include: IUPAC World Chemistry Congress (2019), International Society of Electrochemistry (2017 and the keynote in 2014), Gordon Research Conference on Fuel Cells (2016), SUNCAT Summer Institute at Stanford University (2017 and 2015), International Conference on Materials for Advanced Technologies (2015), and Battery Symposium Japan (2015)."
   rockstar: false
+- 
+  id: 36
+  thumbnailUrl: BiswarupPathak.jpg
+  name: Biswarup
+  surname: Pathak
+  company: "IIT Indore"
+  title: "Associate Professor"
+  bio: "Dr. Biswarup Pathak did his Ph.D. studies under the supervision of Professor E. D. Jemmis at Hyderabad Central University and then moved (May, 2005) along with him to Indian Institute of Science, Bangalore. Soon after his PhD, he joined Prof. Jerzy Leszczynski (Jackson State University, USA) for the postdoctoral studies (January, 2008-July, 2009). After finishing his postdoctoral term at JSU, Dr. Pathak joined (September 2009-May 2012) Prof. Rajeev Ahuja at Uppsala University, Sweden. Soon after his joining, he received Wenner-Gren postdoctoral fellowship (January 2010-December 2011) to carry out the DNA sequencing studies through solid nanopores. In 2012, he joined IIT Indore as an Assistant professor in the Discipline of Chemistry and since 2016, he is an associate professor. His major areas of interest are of designing of nanomaterials for oxygen reduction reactions. He has delivered over 35 talks in various national/international occasions. Dr. Pathak has published over 100 papers in highly reputed international journals. Some of his outstanding works are published in prominent journals such as Journal of American Chemical Society (JACS), Angew. Chem. Int. Ed, Nature Communications and so on. His works have been cited over 2000 times and Dr. Pathak received Early and Mid-Career Research Award from INSA in 2017 and IIT Indore Best Researcher Award in 2016."
+  rockstar: false
+-
+  id: 37
+  name: Sreeraj 
+  surname: Puruvankara
+  company: "IT Kharagpur"
+  rockstar: false
+  
